@@ -5,3 +5,26 @@ export default function Home() {
     </main>
   );
 }
+
+
+
+
+
+
+
+// rota dinamica []
+
+// interface DocumentIdPageProps {
+//   params: Promise<{documentId: string}>
+// }
+
+// const DocumentIdPage = async ({params}: DocumentIdPageProps) => {
+//    const {documentId} = await params;
+//    return(
+//        <div className="min-h-screen bg-[#FAFBFD]">
+//            {documentId}
+//        </div>
+//    )
+// }
+
+// export default DocumentIdPage;
