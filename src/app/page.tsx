@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@/public/NextDS Logo 1.svg"
+import logo from "@/public/NextDS Logo 1.svg";
 
 export default function Home() {
   return (
@@ -7,17 +7,13 @@ export default function Home() {
       <div className="flex flex-col items-center">
         <Image src={logo} width={100} height={100} alt=""></Image>
         <p className="text-white">Em breve o novo site da NextDS saindo...</p>
-        <button className="btn btn-accent"><span className="text-white">Entrar em contato</span></button>
+        <button className="btn btn-accent">
+          <span className="text-white">Entrar em contato</span>
+        </button>
       </div>
     </main>
   );
 }
-
-
-
-
-
-
 
 // rota dinamica []
 
