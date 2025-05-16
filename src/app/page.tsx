@@ -6,7 +6,7 @@ export default function Home() {
     <main className="flex size-full min-h-screen justify-center items-center">
       <div className="flex flex-col items-center">
         <Image src={logo} width={100} height={100} alt=""></Image>
-        <p className="text-white">Em breve o novo site da NextDS saindo...</p>
+        <p className="text-white">Uma breve atualização</p>
         <button className="btn btn-accent">
           <span className="text-white">Entrar em contato</span>
         </button>
